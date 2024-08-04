@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background-image: url(/assets/fondo2.jpeg); /* Cambia esto a la ruta de tu imagen */
+  background-image: url(./assets/fondo2.jpeg); /* Cambia esto a la ruta de tu imagen */
   background-size: cover;
   background-position: center;
   position: relative;
