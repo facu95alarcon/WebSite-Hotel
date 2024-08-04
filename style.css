@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url(/assets/fondo2.jpeg); /* Cambia esto a la ruta de tu imagen */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+ color: #b9932a;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;/
+  background-color: ;
+  z-index: -1;
+}
+
+.img-logo{
+    width: 5vw ;
+}
+.custom-navbar{
+background-color: #46454594 !important; 
+  }
+  .custom-image{
+    width: 50vw !important;
+   
+  }
+  .description{
+   width: 40vw;
+  }
+  .portada{
+    max-width: 100%;
+    height: auto;
+  }
+  h1, h2 {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+
+  .hero-section, .features-section, .rooms-section, .booking-section {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  .hero-section .description {
+    margin-bottom: 20px;
+  }
+  
+  .hero-section .hero-image {
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .hero-section .description {
+      margin-bottom: 0;
+    }
+  
+    .hero-section .hero-image {
+      margin-top: 0;
+    }
+  }
+  .rooms-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  .rooms-section .room-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .rooms-section .room-image :hover{
+    
+  }
+  .features-section .feature {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .features-section .feature i {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .features-section h3 {
+    margin-top: 10px;
+  }
+  .rooms-section img {
+    transition: filter 0.3s ease;
+  }
+  
+  .rooms-section img:hover {
+    filter: brightness(70%);
+    cursor: pointer;
+  }

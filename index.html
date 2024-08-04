@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar"><a class="navbar-brand" href=""><img class="img-logo" src="/assets/logo.png" alt=""></a></nav>
+  </header>
+   <!-- Hero Section --> 
+<div class="container my-5 hero-section">
+    <div class="row">
+      <div class="col-12 col-md-6  mt-5 description">
+        <h1>Sinta o conforto acolhedor de nossas hosédagens</h1>
+        <p class="p">Hospede-se no nossos hotéis com quartos a partir de R$100,00.</p>
+        <button class="btn btn-outline-primary custom-button">Saiba mais</button>
+      </div>
+      <div class="image col-12 col-md-6  mt-5 portada hero-image" ><img  src="/assets/piscina.jpg" id="logo" class="img-fluid custom-image" alt=""></div>
+    </div>
+</div>  
+ <!-- Features Section -->
+<div class="container my-5 features-section">
+  <div class="row text-center">
+      <div class="col-12">
+          <h2>POR QUE SE HOSPEDAR EM NOSSOS HOTÉIS?</h2>
+      </div>
+      <div class="col-6 col-md-3 offset-md-3">
+        <div class="feature">
+          <i class="fas fa-coffee fa-3x"></i>
+          <h3>Delicioso café da manhã</h3>
+          <p>Incluso em todas as diárias</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="feature">
+          <i class="fas fa-map-marker-alt fa-3x"></i>
+          <h3>Fácil acesso</h3>
+          <p>Perto dos principais pontos turísticos</p>
+        </div>
+      </div>
+  </div>
+</div>
+    <!-- Rooms Section -->
+    <div class="container my-5 rooms-section">
+      <div class="row text-center">
+          <div class="col-12">
+              <h2>NOSSOS QUARTOS</h2>
+          </div>
+          <div class="col-12 col-md-4">
+              <img src="/assets/suite-solteiro.jpg" class="img-fluid room-image" alt="Suíte Solteiro">
+              <h3>Suíte Solteiro</h3>
+          </div>
+          <div class="col-12 col-md-4">
+              <img src="/assets/suite-casal.jpg" class="img-fluid room-image" alt="Suíte Casal">
+              <h3>Suíte Casal</h3>
+          </div>
+          <div class="col-12 col-md-4">
+              <img src="/assets/suite-master.jpeg" class="img-fluid room-image" alt="Suíte Master">
+              <h3>Suíte Master</h3>
+          </div>
+      </div>
+  </div>
+
+  <!-- Booking Section -->
+<div class="container my-5 booking-section">
+  <h2 class="text-center">FAÇA SUA RESERVA</h2>
+  <p>Entre em contato conosco informando as datas desejadas. Lhe retornaremos informando a disponibilidade e repassando detalhes da reserva.</p>
+  <form>
+      <div class="form-row">
+          <div class="form-group col-md-6">
+              <label for="inputName">Nome</label>
+              <input type="text" class="form-control" id="inputName" placeholder="Nome">
+          </div>
+          <div class="form-group col-md-6">
+              <label for="inputEmail">E-mail</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="E-mail">
+          </div>
+      </div>
+      <div class="form-row">
+          <div class="form-group col-md-6">
+              <label for="inputCheckIn">Data de entrada</label>
+              <input type="date" class="form-control" id="inputCheckIn">
+          </div>
+          <div class="form-group col-md-6">
+              <label for="inputCheckOut">Data de saída</label>
+              <input type="date" class="form-control" id="inputCheckOut">
+          </div>
+      </div>
+      <div class="form-row">
+          <div class="form-group col-12">
+              <label for="inputObservations">Observações</label>
+              <textarea class="form-control" id="inputObservations" rows="3"></textarea>
+          </div>
+      </div>
+      <div class="form-row">
+          <div class="form-group col-md-6">
+              <label for="inputAdults">Adultos</label>
+              <input type="number" class="form-control" id="inputAdults" placeholder="0">
+          </div>
+          <div class="form-group col-md-6">
+              <label for="inputChildren">Crianças</label>
+              <input type="number" class="form-control" id="inputChildren" placeholder="0">
+          </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <script src="scripts.js"></script>
+</body>
+</html>
