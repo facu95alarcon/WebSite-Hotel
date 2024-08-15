@@ -72,50 +72,51 @@
 <div class="container my-5 booking-section">
   <h2 class="text-center">FAÇA SUA RESERVA</h2>
   <p>Entre em contato conosco informando as datas desejadas. Lhe retornaremos informando a disponibilidade e repassando detalhes da reserva.</p>
-  <form>
-      <div class="form-row">
-          <div class="form-group col-md-6">
-              <label for="inputName">Nome</label>
-              <input type="text" class="form-control" id="inputName" placeholder="Nome">
-          </div>
-          <div class="form-group col-md-6">
-              <label for="inputEmail">E-mail</label>
-              <input type="email" class="form-control" id="inputEmail" placeholder="E-mail">
-          </div>
-      </div>
-      <div class="form-row">
-          <div class="form-group col-md-6">
-              <label for="inputCheckIn">Data de entrada</label>
-              <input type="date" class="form-control" id="inputCheckIn">
-          </div>
-          <div class="form-group col-md-6">
-              <label for="inputCheckOut">Data de saída</label>
-              <input type="date" class="form-control" id="inputCheckOut">
-          </div>
-      </div>
-      <div class="form-row">
-          <div class="form-group col-12">
-              <label for="inputObservations">Observações</label>
-              <textarea class="form-control" id="inputObservations" rows="3"></textarea>
-          </div>
-      </div>
-      <div class="form-row">
-          <div class="form-group col-md-6">
-              <label for="inputAdults">Adultos</label>
-              <input type="number" class="form-control" id="inputAdults" placeholder="0">
-          </div>
-          <div class="form-group col-md-6">
-              <label for="inputChildren">Crianças</label>
-              <input type="number" class="form-control" id="inputChildren" placeholder="0">
-          </div>
-      </div>
-      <button type="submit" class="btn btn-primary">Enviar</button>
-  </form>
+  <form id="reservaForm">
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputName">Nome</label>
+            <input type="text" name="nome" class="form-control" id="inputName" placeholder="Nome">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputEmail">E-mail</label>
+            <input type="email" name="email" class="form-control" id="inputEmail" placeholder="E-mail">
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputCheckIn">Data de entrada</label>
+            <input type="date" name="data_entrada" class="form-control" id="inputCheckIn">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputCheckOut">Data de saída</label>
+            <input type="date" name="data_saida" class="form-control" id="inputCheckOut">
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-12">
+            <label for="inputObservations">Observações</label>
+            <textarea class="form-control" name="mensagem" id="inputObservations" rows="3"></textarea>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputAdults">Adultos</label>
+            <input type="number" name="adultos" class="form-control" id="inputAdults" placeholder="0">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputChildren">Crianças</label>
+            <input type="number" name="criancas" class="form-control" id="inputChildren" placeholder="0">
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+
 </div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
- <script src="./scripts.js"></script>
+ <script src="./script.js"></script>
 </body>
 </html>

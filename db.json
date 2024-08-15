@@ -1,0 +1,14 @@
+{
+  "reservas": [
+    {
+      "id": "5e06",
+      "nome": "tere",
+      "email": "facu95alarcon@gmail.com",
+      "data_entrada": "1995-08-03",
+      "data_saida": "2024-09-05",
+      "mensagem": "bodas",
+      "adultos": "1",
+      "criancas": "2"
+    }
+  ]
+}
